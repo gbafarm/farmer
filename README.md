@@ -123,7 +123,7 @@ WELCOME TO GBA FARMS
         <!-- Contact -->
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: gbafarm.jomar@.com</p>
+            <p>Email: gbafarm.jomar@gmail.com</p>
             <p>Phone: +63 928 823 2614</p>
             <p>Address: 7320 Culo, Bongoyan, Borbon, Philippines</p>
             <p><button class="button" onclick="greet()">Send a Message</button></p>
@@ -142,3 +142,4 @@ WELCOME TO GBA FARMS
     </script>
 </body>
 </html>
+<remove repositoryname at the top>
