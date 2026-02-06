@@ -1,2 +1,144 @@
-# breadfruit
-Website for GREENVALE BINHI ARC FARMS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENVALE BINHI ARC FARMS - Breadfruit Research & Trading</title>
+    <meta name="description" content="GREENVALE BINHI ARC FARMS specializes in research, propagation, and trading of Breadfruit. Sustainable agriculture in the Philippines.">
+    <meta name="keywords" content="Breadfruit, Sustainable Farming, Agriculture Philippines, Greenvale Binhi Arc Farms, Plant Propagation, R&D Breadfruit">
+    <meta name="author" content="GREENVALE BINHI ARC FARMS">
+    
+    <style>
+        /* ===== Global Styles ===== */
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {font-family: Arial, sans-serif; color:#333; line-height:1.6; scroll-behavior: smooth;}
+        a {text-decoration: none; color: inherit;}
+        
+        /* ===== Header ===== */
+        header {background-color: #4CAF50; color:white; padding:20px 0; text-align:center;}
+        header h1 {font-size:36px; margin-bottom:10px;}
+        header p {font-size:18px;}
+        
+        /* ===== Navigation ===== */
+        nav {background-color:#333; text-align:center; position:sticky; top:0; z-index:100;}
+        nav a {color:white; padding:14px 20px; display:inline-block; font-weight:bold;}
+        nav a:hover {background-color:#ddd; color:black;}
+        
+        /* ===== Hero Section ===== */
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1617196032298-64b9c0f0a91b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080');
+            background-size: cover;
+            background-position: center;
+            height:400px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-align:center;
+            flex-direction:column;
+        }
+        .hero h2 {font-size:42px; background-color: rgba(0,0,0,0.4); padding:15px 30px; border-radius:10px;}
+        .hero p {margin-top:10px; font-size:20px; background-color: rgba(0,0,0,0.4); padding:10px 20px; border-radius:8px;}
+        .hero .button {
+            margin-top:20px; background-color:#fff; color:#4CAF50;
+            padding:12px 25px; border:none; font-weight:bold; cursor:pointer;
+            border-radius:5px; transition:0.3s;
+        }
+        .hero .button:hover {background-color:#e0e0e0;}
+        
+        /* ===== Main Content ===== */
+        main {padding:40px 20px; max-width:1200px; margin:auto;}
+        section {margin-bottom:80px;}
+        section h2 {color:#4CAF50; margin-bottom:20px; text-align:center;}
+        section p {font-size:16px; margin-bottom:20px; text-align:center;}
+        
+        /* ===== Services Cards ===== */
+        .services {display:flex; justify-content:space-around; flex-wrap:wrap; gap:20px;}
+        .card {background-color:#f4f4f4; flex:1 1 250px; padding:20px; border-radius:10px; text-align:center; transition:0.3s;}
+        .card:hover {transform:translateY(-5px); box-shadow:0 10px 15px rgba(0,0,0,0.1);}
+        .card h3 {margin-bottom:15px; color:#2E7D32;}
+        .card p {font-size:15px;}
+        
+        /* ===== Footer ===== */
+        footer {background-color:#333; color:white; text-align:center; padding:20px 10px;}
+        
+        /* ===== Responsive ===== */
+        @media(max-width:768px){.services {flex-direction:column; align-items:center;}}
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>GREENVALE BINHI ARC FARMS</h1>
+        <p>Research, Propagation, and Trading of Breadfruit & More</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+        <h2>Grow with Greenvale</h2>
+        <p>Innovating Sustainable Agriculture One Plant at a Time</p>
+        <button class="button" onclick="greet()">Get in Touch</button>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Us -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>GREENVALE BINHI ARC FARMS is dedicated to advancing sustainable agriculture through research, propagation, and trading of Breadfruit. We combine scientific innovation with community-driven farming practices to deliver high-quality plants and agricultural solutions.</p>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="card">
+                    <h3>Research & Development</h3>
+                    <p>Innovating new Breadfruit varieties for better yield and disease resistance.</p>
+                </div>
+                <div class="card">
+                    <h3>Propagation & Cultivation</h3>
+                    <p>Providing support and guidance for effective plant growth and cultivation.</p>
+                </div>
+                <div class="card">
+                    <h3>Trading & Distribution</h3>
+                    <p>High-quality Breadfruit and other plants delivered with care.</p>
+                </div>
+                <div class="card">
+                    <h3>Consultancy</h3>
+                    <p>Expert advice for sustainable farming and modern agricultural practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@greenvalebinhi.com</p>
+            <p>Phone: +63 912 345 6789</p>
+            <p>Address: 123 Agriculture Lane, Greenvale, Philippines</p>
+            <p><button class="button" onclick="greet()">Send a Message</button></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 GREENVALE BINHI ARC FARMS. All Rights Reserved.
+    </footer>
+
+    <script>
+        function greet() {
+            alert("Hello! Thank you for visiting GREENVALE BINHI ARC FARMS!");
+        }
+    </script>
+</body>
+</html>
