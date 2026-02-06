@@ -123,9 +123,9 @@ WELCOME TO GBA FARMS
         <!-- Contact -->
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: info@greenvalebinhi.com</p>
-            <p>Phone: +63 912 345 6789</p>
-            <p>Address: 123 Agriculture Lane, Greenvale, Philippines</p>
+            <p>Email: gbafarm.jomar@.com</p>
+            <p>Phone: +63 928 823 2614</p>
+            <p>Address: 7320 Culo, Bongoyan, Borbon, Philippines</p>
             <p><button class="button" onclick="greet()">Send a Message</button></p>
         </section>
     </main>
